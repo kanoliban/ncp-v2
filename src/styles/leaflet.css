@@ -1,0 +1,27 @@
+/* Leaflet Map Styles */
+.custom-marker {
+  width: 0;
+  height: 0;
+}
+
+.custom-marker-active {
+  z-index: 1000;
+}
+
+.custom-marker-active .marker-icon {
+  transform: scale(1.2);
+}
+
+.custom-tooltip {
+  background-color: white;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.leaflet-container {
+  font-family: inherit;
+}
